@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.firstscreen {
+display: flex;
+height:100%;
+background-image: url(/images/first.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+justify-content:center;
+align-items:center;
+}
+
+
+
+.header__block {
+    display: flex;
+    width: 90%;
+    margin: 15px;
+    justify-content: space-between;
+    margin: 0 auto;
+          
+}
+
+.menu a {
+text-decoration: none;
+color: #fff;
+padding: 10px;
+}
+
+
+.zagolovok {
+    width:90%;
+    margin: 0px auto;
+   text-align: center;
+    
+}
+
+.zagolovok h1 {
+    font-size: 55px;
+    line-height: 67px;
+    color: #fff;
+    margin: 15px auto;
+    font-weight: bold;
+}
+
+.zagolovok p {
+    font-size: 21px;
+    line-height: 26px;
+    color: #fff;
+    margin: 15px auto;
+    
+}
+
+.buttons {
+    text-transform: uppercase;
+}
+
+.buttons a {
+    display: inline-block;
+    width:200px;
+    padding: 20px;
+    text-decoration:none;
+    background-color: #fff;
+    border-radius:4px;
+    margin: 15px;
+    color: #929496;
+}
+
+.buttons a:hover {
+    background-color: #70CBCE;
+    color: #fff;
+}
+
+.mouse {
+    margin: 15px;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+.header .logo {
+    width: 175px;
+    height: 41px;
+    
+}
+
+.header .menu {
+    width: 157px;
+    height: 15px;
+    margin-top: 30px;
+    margin-right: 120px;
+}
+
+
+
+.bg__content {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    justify-content:center;
+    background-image: url(/images/bg.jpg);
+    color: #fff;
+}
+
+.text {
+   
+    text-align: center;
+}
+.bg__content h1 {
+    font-size: 40px;  
+    
+    }
+
+    .bg__content p {
+        font-size: 21px;
+    }
+
+    
+
+    .apps {
+        
+        height: 1458px;
+        background-color: #fff;
+        
+    }
+    .apps img {
+        
+    }
+
+    .pricing {
+        
+        height: 803px;
+        background-color: #70CBCE;
+    }
+
+    .subscribe {
+        
+        height: 819px;
+        background-color: #F2F2F2;
+    }
+
+    .footer {
+        
+        height: 271px;
+        background-color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
